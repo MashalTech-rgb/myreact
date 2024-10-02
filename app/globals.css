@@ -11,13 +11,29 @@ body{
     color: white;
 }
 .heading {
-    font-size: 2.5rem; /* Adjust size as needed */
-    color: #ffffff;    /* Change to your desired color */
-    font-weight: bold; /* Makes the text bold */
-    text-align: center; /* Centers the heading */
-    margin: 20px 0px 10px 0px;    /* Adds some space above and below the heading */
-    text-transform: uppercase; /* Makes the text uppercase */
-    letter-spacing: 1px; /* Adds some spacing between letters */
-    font-family: 'Arial', sans-serif; /* Change font as desired */
+    font-size: 2.5rem; 
+    color: #ffffff;    
+    font-weight: bold; 
+    text-align: center; 
+    margin: 20px 0px 10px 0px;  
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    font-family: 'Arial', sans-serif;
     background-color: rgb(127, 206, 255);
+  }
+  .navbar{
+    /* bg-slate-600 text-white font-bold flex items-center h-10 px-12 gap-8 justify-between */
+    background-color: rgb(0, 69, 126);
+    color: white;
+    font-weight:bold;
+    display: flex;
+    align-items: center;
+    height: 18px;
+    padding-left: 10px 0px 10px 0px;
+    justify-content: space-between;
+    gap: 8;
+  }
+  .navbar container{
+    display: flex;
+    gap: 8;
   }
