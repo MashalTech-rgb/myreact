@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.button{
+    background-color: black;
+    color: white;
+}
+.heading {
+    font-size: 2.5rem; /* Adjust size as needed */
+    color: #ffffff;    /* Change to your desired color */
+    font-weight: bold; /* Makes the text bold */
+    text-align: center; /* Centers the heading */
+    margin: 20px 0px 10px 0px;    /* Adds some space above and below the heading */
+    text-transform: uppercase; /* Makes the text uppercase */
+    letter-spacing: 1px; /* Adds some spacing between letters */
+    font-family: 'Arial', sans-serif; /* Change font as desired */
+    background-color: rgb(127, 206, 255);
+  }
