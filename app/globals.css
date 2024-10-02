@@ -24,13 +24,12 @@ body{
     background-color: rgb(127, 206, 255);
   }
 .img{
-    display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     background-image: url('https://file.mockplus.com/image/2019/10/19c4d610-a524-40ad-a3b5-8244bc59d395.jpg');
-    background-size: contain; /* Make sure the logo fits the container */
+    background-size: contain; 
     background-repeat: no-repeat;
-    width: 150px; /* Set your desired width */
-    height: 150px; 
+    width: 20px;
+    height: 30px; 
  }
